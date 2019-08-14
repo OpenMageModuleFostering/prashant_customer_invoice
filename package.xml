@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>prashant_customer_invoice</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow customers to view list of generated invoices and download Invoice PDF files.</summary>
+    <description>Allow customers to view list of all generated invoices and download Invoice PDF files.</description>
+    <notes>First Release</notes>
+    <authors><author><name>Prashant Kumar</name><user>prashantkr</user><email>vicky.bgp@gmail.com</email></author></authors>
+    <date>2016-07-19</date>
+    <time>10:59:42</time>
+    <contents><target name="magecommunity"><dir name="Prashant"><dir name="CustomerInvoices"><dir name="Block"><file name="Index.php" hash="3d00d79682f66ea527929d9b37bc37f4"/></dir><dir name="controllers"><file name="CustomerInvoiceController.php" hash="1036e82508ec6608571fce9f1bb74568"/></dir><dir name="etc"><file name="config.xml" hash="81d5216dc02582912f7a478e0f3e165f"/></dir></dir><dir name="Headerlogo"><dir name="Block"><dir name="Html"><file name="Header.php" hash="5d565da73eff1c14b0247d5f92c86901"/></dir></dir><dir name="Helper"><file name="Data.php" hash="c6a27189bf862febceb2425309022ecc"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Backend"><dir name="Image"><file name="Logo.php" hash="48a43b5b95d007dc65d56869cb59a91e"/></dir></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="6935d5e4758764ba080c0c2d2ffb7165"/><file name="config.xml" hash="8c1be5eca26dfb5cd5f662cfb1a550d3"/><file name="system.xml" hash="768b55ccef08fe9709666223257a3c72"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Prashant_CustomerInvoices.xml" hash="19d70c91217a5bfbb5ee6a2cb4a922c3"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="customerinvoices.xml" hash="88a5f72607f6b08bcefa960d68939680"/></dir><dir name="template"><dir name="customer"><dir name="account"><file name="invoices.phtml" hash="ff2685fd4267c0b30106387babec1b7b"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

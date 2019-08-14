@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Prashant_CustomerInvoices>
+            <version>1.0.0</version>
+        </Prashant_CustomerInvoices>
+    </modules>
+
+    <frontend>
+        <routers>
+            <prashant>
+                <use>standard</use>
+                <args>
+                    <module>Prashant_CustomerInvoices</module>
+                    <frontName>prashant</frontName>
+                </args>
+            </prashant>
+        </routers>
+
+        <layout>
+            <updates>
+                <prashant>
+                    <file>customerinvoices.xml</file>
+                </prashant>
+            </updates>
+        </layout>
+    </frontend>
+
+    <global>
+        <blocks>
+            <invoices>
+                <class>Prashant_CustomerInvoices_Block</class>
+            </invoices>
+        </blocks>
+    </global>
+</config>
