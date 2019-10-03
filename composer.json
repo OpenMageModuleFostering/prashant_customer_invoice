@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/prashant_customer_invoice",
+    "name": "openmage-module-fostering\/prashant_customer_invoice",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Allow customers to view list of generated invoices and download Invoice PDF files.",
     "authors": [
